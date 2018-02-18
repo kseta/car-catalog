@@ -9,7 +9,8 @@
         "bear/package": "^1.5",
         "josegonzalez/dotenv": "^2.1",
         "bear/aura-router-module": "^2.0",
-        "monolog/monolog": "^1.0"
+        "monolog/monolog": "^1.0",
+        "madapaja/twig-module": "^2.0"
     },
     "require-dev": {
         "bear/qatools": "^1.4.9"
