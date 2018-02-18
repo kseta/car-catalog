@@ -2,6 +2,7 @@
 namespace MyVendor\MyProject\Resource\App;
 
 use BEAR\Resource\ResourceObject;
+use MyVendor\MyProject\Annotation\BenchMark;
 use Psr\Log\LoggerInterface;
 
 class Weekday extends ResourceObject
@@ -15,12 +16,22 @@ class Weekday extends ResourceObject
      * Weekday constructor.
      *
      * @param LoggerInterface $logger
+     *
      */
     public function __construct(LoggerInterface $logger)
     {
         $this->logger = $logger;
     }
 
+    /**
+     * @BenchMark
+     *
+     * @param int $year
+     * @param int $month
+     * @param int $day
+     *
+     * @return ResourceObject
+     */
     public function onGet(int $year, int $month, int $day) : ResourceObject
     {
         $weekday = \DateTime::createFromFormat('Y-m-d', "$year-$month-$day")->format('D');
