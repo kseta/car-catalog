@@ -8,3 +8,4 @@
 phpunit.xml
 /var/log/
 /var/tmp/
+/var/db/
