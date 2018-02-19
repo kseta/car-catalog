@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a9528c37f55a75bfb4d3ea982f1a3e5",
+    "content-hash": "6cb127ff2901605b6f4de93356dd0b26",
     "packages": [
         {
             "name": "aura/cli",
@@ -111,6 +111,47 @@
                 "routing"
             ],
             "time": "2017-03-02T16:34:47+00:00"
+        },
+        {
+            "name": "bear/api-doc",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bearsunday/BEAR.ApiDoc.git",
+                "reference": "a0b8fc849ce32379b82514b291774ddb8a9e2c01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.ApiDoc/zipball/a0b8fc849ce32379b82514b291774ddb8a9e2c01",
+                "reference": "a0b8fc849ce32379b82514b291774ddb8a9e2c01",
+                "shasum": ""
+            },
+            "require": {
+                "bear/resource": "^1.9.0",
+                "twig/twig": "^1.7|^2.4"
+            },
+            "require-dev": {
+                "bear/aura-router-module": "^1.2",
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BEAR\\ApiDoc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Akihito Koriyama",
+                    "email": "akihito.koriyama@gmail.com"
+                }
+            ],
+            "description": "API Doc page class for BEAR.Sunday",
+            "time": "2017-11-21T07:20:09+00:00"
         },
         {
             "name": "bear/app-meta",
