@@ -7,6 +7,7 @@ use josegonzalez\Dotenv\Loader as Dotenv;
 use MyVendor\MyProject\Annotation\BenchMark;
 use MyVendor\MyProject\Interceptor\BenchMarker;
 use Psr\Log\LoggerInterface;
+use Ray\CakeDbModule\CakeDbModule;
 use Ray\Di\AbstractModule;
 use Ray\Di\Scope;
 
@@ -31,5 +32,11 @@ class AppModule extends AbstractModule
             $this->matcher->annotatedWith(BenchMark::class), // @BenchMarkとアノテートされているメソッドに
             [BenchMarker::class]                             // BenchMarkerインターセプターを適用
         );
+
+        $dbConfig = [
+            'driver' => 'Cake\Database\Driver\Sqlite',
+            'database' => $appDir . '/var/db/todo.sqlite3'
+        ];
+        $this->install(new CakeDbModule($dbConfig));
     }
 }
