@@ -1,4 +1,6 @@
-# MyVendor.MyProject
+# CarCatalog
+
+This is car catalog.
 
 ## Installation
 
