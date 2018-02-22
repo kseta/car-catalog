@@ -16,7 +16,6 @@ class Weekday extends ResourceObject
      * Weekday constructor.
      *
      * @param LoggerInterface $logger
-     *
      */
     public function __construct(LoggerInterface $logger)
     {

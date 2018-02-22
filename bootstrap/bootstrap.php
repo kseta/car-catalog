@@ -1,4 +1,5 @@
 <?php
+
 use BEAR\Package\Bootstrap;
 
 require dirname(__DIR__) . '/autoload.php';
