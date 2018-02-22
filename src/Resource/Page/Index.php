@@ -1,5 +1,5 @@
 <?php
-namespace MyVendor\MyProject\Resource\Page;
+namespace KSeta\CarCatalog\Resource\Page;
 
 use BEAR\Resource\Annotation\Embed;
 use BEAR\Resource\ResourceObject;

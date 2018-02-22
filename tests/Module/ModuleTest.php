@@ -1,5 +1,5 @@
 <?php
-namespace MyVendor\MyProject;
+namespace KSeta\CarCatalog;
 
 use BEAR\Package\Bootstrap;
 use BEAR\Sunday\Extension\Application\AbstractApp;

@@ -1,5 +1,5 @@
 <?php
-namespace MyVendor\MyProject\Annotation;
+namespace KSeta\CarCatalog\Annotation;
 
 /**
  * @Annotation

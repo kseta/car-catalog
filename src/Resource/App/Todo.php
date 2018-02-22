@@ -1,5 +1,5 @@
 <?php
-namespace MyVendor\MyProject\Resource\App;
+namespace KSeta\CarCatalog\Resource\App;
 
 use BEAR\Package\Annotation\ReturnCreatedResource;
 use BEAR\RepositoryModule\Annotation\Cacheable;

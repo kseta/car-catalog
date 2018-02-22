@@ -1,5 +1,5 @@
 {
-    "name": "my-vendor/my-project",
+    "name": "kseta/car-catalog",
     "type": "project",
     "license": "proprietary",
     "description": "",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MyVendor\\MyProject\\": "src/"
+            "KSeta\\CarCatalog\\": "src/"
         }
     },
     "autoload-dev": {

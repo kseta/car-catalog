@@ -1,8 +1,8 @@
 <?php
-namespace MyVendor\MyProject\Resource\App;
+namespace KSeta\CarCatalog\Resource\App;
 
 use BEAR\Resource\ResourceObject;
-use MyVendor\MyProject\Annotation\BenchMark;
+use KSeta\CarCatalog\Annotation\BenchMark;
 use Psr\Log\LoggerInterface;
 
 class Weekday extends ResourceObject

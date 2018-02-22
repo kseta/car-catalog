@@ -1,5 +1,5 @@
 <?php
-namespace MyVendor\MyProject\Module;
+namespace KSeta\CarCatalog\Module;
 
 use Madapaja\TwigModule\TwigModule;
 use Ray\Di\AbstractModule;

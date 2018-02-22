@@ -1,5 +1,5 @@
 <?php
-namespace MyVendor\MyProject\Resource\App;
+namespace KSeta\CarCatalog\Resource\App;
 
 use BEAR\Resource\ResourceObject;
 

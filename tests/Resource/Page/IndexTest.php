@@ -1,5 +1,5 @@
 <?php
-namespace MyVendor\MyProject\Resource\Page;
+namespace KSeta\CarCatalog\Resource\Page;
 
 use BEAR\Package\AppInjector;
 use BEAR\Resource\ResourceInterface;
@@ -15,7 +15,7 @@ class IndexTest extends TestCase
 
     protected function setUp()
     {
-        $this->resource = (new AppInjector('MyVendor\MyProject', 'app'))->getInstance(ResourceInterface::class);
+        $this->resource = (new AppInjector('KSeta\CarCatalog', 'app'))->getInstance(ResourceInterface::class);
     }
 
     public function testOnGet()

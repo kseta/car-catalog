@@ -1,5 +1,5 @@
 <?php
-namespace MyVendor\MyProject\Interceptor;
+namespace KSeta\CarCatalog\Interceptor;
 
 use Psr\Log\LoggerInterface;
 use Ray\Aop\MethodInterceptor;

@@ -1,11 +1,11 @@
 <?php
-namespace MyVendor\MyProject\Module;
+namespace KSeta\CarCatalog\Module;
 
 use BEAR\Package\PackageModule;
 use BEAR\Package\Provide\Router\AuraRouterModule;
 use josegonzalez\Dotenv\Loader as Dotenv;
-use MyVendor\MyProject\Annotation\BenchMark;
-use MyVendor\MyProject\Interceptor\BenchMarker;
+use KSeta\CarCatalog\Annotation\BenchMark;
+use KSeta\CarCatalog\Interceptor\BenchMarker;
 use Psr\Log\LoggerInterface;
 use Ray\CakeDbModule\CakeDbModule;
 use Ray\Di\AbstractModule;

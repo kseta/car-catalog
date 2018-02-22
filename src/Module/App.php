@@ -1,5 +1,5 @@
 <?php
-namespace MyVendor\MyProject\Module;
+namespace KSeta\CarCatalog\Module;
 
 use BEAR\Sunday\Extension\Application\AbstractApp;
 

@@ -1,5 +1,5 @@
 <?php
-namespace MyVendor\MyProject\Resource\App\Rels;
+namespace KSeta\CarCatalog\Resource\App\Rels;
 
 use BEAR\ApiDoc\ApiDoc;
 

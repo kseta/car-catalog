@@ -1,5 +1,5 @@
 <?php
-namespace MyVendor\MyProject\Module;
+namespace KSeta\CarCatalog\Module;
 
 use BEAR\AppMeta\AbstractAppMeta;
 use Monolog\Handler\StreamHandler;
