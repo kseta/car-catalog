@@ -13,7 +13,7 @@ class ModuleTest extends TestCase
     public function contextsProvider()
     {
         return [
-            ['prod-hal-api-app'],
+            ['hal-api-app'],
         ];
     }
 

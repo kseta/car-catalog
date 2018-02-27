@@ -4,6 +4,7 @@ namespace KSeta\CarCatalog\Resource\Page;
 use BEAR\Package\AppInjector;
 use BEAR\Resource\ResourceInterface;
 use BEAR\Resource\ResourceObject;
+use Koriym\HttpConstants\ResponseHeader;
 use PHPUnit\Framework\TestCase;
 
 class IndexTest extends TestCase
@@ -20,10 +21,10 @@ class IndexTest extends TestCase
 
     public function testOnGet()
     {
-        $ro = $this->resource->uri('page://self/index')(['name' => 'BEAR.Sunday']);
+        $ro = $this->resource->uri('page://self/')();
+
         /* @var $ro Index */
         $this->assertSame(200, $ro->code);
-        $this->assertSame('Hello BEAR.Sunday', $ro['greeting']);
 
         return $ro;
     }

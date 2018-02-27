@@ -6,21 +6,10 @@ use BEAR\Resource\ResourceObject;
 
 class Index extends ResourceObject
 {
-    /**
-     * @Embed(rel="weekday", src="app://self/weekday{?year,month,day}")
-     *
-     * @param int $year
-     * @param int $month
-     * @param int $day
-     *
-     * @return ResourceObject
-     */
-    public function onGet(int $year, int $month, int $day) : ResourceObject
+    public function onGet() : ResourceObject
     {
-        $this->body += [
-            'year' => $year,
-            'month' => $month,
-            'day' => $day
+        $this->body = [
+            'greeting' => 'Hello BEAR.Sunday',
         ];
 
         return $this;
